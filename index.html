@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat UI Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar ">
+      <div class="sidebar-header">Chats</div>
+      <ul class="contacts">
+        <li class="contact active">
+          <img src="https://i.pravatar.cc/40" alt="Avatar" />
+          <div class="contact-info">
+            <h4>John Doe</h4>
+            <p>Last message...</p>
+          </div>
+          <div class="time">12:00</div>
+        </li>
+        <!-- Add more contacts here -->
+      </ul>
+      <ul class="contacts">
+        <li class="contact">
+          <img src="https://i.pravatar.cc/40" alt="Avatar" />
+          <div class="contact-info">
+            <h4>John Doe</h4>
+            <p>Last message...</p>
+          </div>
+          <div class="time">12:00</div>
+        </li>
+        <!-- Add more contacts here -->
+      </ul>
+      <ul class="contacts">
+        <li class="contact">
+          <img src="https://i.pravatar.cc/40" alt="Avatar" />
+          <div class="contact-info">
+            <h4>John Doe</h4>
+            <p>Last message...</p>
+          </div>
+          <div class="time">12:00</div>
+        </li>
+        <!-- Add more contacts here -->
+      </ul>
+      <ul class="contacts">
+        <li class="contact">
+          <img src="https://i.pravatar.cc/40" alt="Avatar" />
+          <div class="contact-info">
+            <h4>John Doe</h4>
+            <p>Last message...</p>
+          </div>
+          <div class="time">12:00</div>
+        </li>
+        <!-- Add more contacts here -->
+      </ul>
+    </div>
+    <div class="chat chat-container">
+      <div class="chat-header">
+        <div class="chat-user">
+          <img src="https://i.pravatar.cc/40" alt="Avatar" />
+          
+            <h4>John Doe</h4>
+            <p class="status">Online</p>
+          
+        </div>
+        <button id="theme-toggle">🌙</button>
+      </div>
+      <div id="messages" class="messages chat-container"></div>
+      <div class="input-area ">
+        <input type="text" id="message-input" placeholder="Type a message" />
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
